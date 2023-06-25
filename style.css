@@ -1,0 +1,36 @@
+/* Styles for the header */
+header {
+    background-color: #1DB954;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Styles for the container */
+  .container {
+    margin: 20px;
+  }
+  
+  /* Styles for the songs list */
+  .songs-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .song {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .song img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .song-title {
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
